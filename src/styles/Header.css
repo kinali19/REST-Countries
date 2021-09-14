@@ -1,0 +1,28 @@
+.navbar{
+    top: 0;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: .75em 3em;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    /* background: #fff; */
+    height: 70px;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: 800;
+}
+.theme-button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .title{font-size: 1.25em;}
+    
+}
